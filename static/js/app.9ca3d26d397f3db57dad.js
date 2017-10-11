@@ -302,17 +302,6 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ "70E/":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home"},[_c('h6',[_vm._v("未派单订单")]),_vm._v(" "),_c('ul',{staticClass:"order order_end"},[_c('li',[_vm._m(0),_vm._v(" "),_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.is_open),expression:"is_open"}],staticClass:"btn"},[_c('button',{on:{"click":_vm.copy}},[_vm._v("复制订单信息")]),_vm._v(" "),_c('button',{on:{"click":_vm.sendSingle}},[_vm._v("派单")])]),_vm._v(" "),_c('div',{directives:[{name:"show",rawName:"v-show",value:(!_vm.is_open),expression:"!is_open"}],staticClass:"input"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"confirm",on:{"click":_vm.confirm}},[_vm._v("确认派单")])])]),_vm._v(" "),_c('li',[_vm._m(2),_vm._v(" "),_c('div',{directives:[{name:"show",rawName:"v-show",value:(false),expression:"false"}],staticClass:"input"},[_vm._m(3),_vm._v(" "),_c('div',{staticClass:"confirm"},[_vm._v("确认派单")])])])])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"list"},[_c('div',{staticClass:"title"},[_c('h5',[_vm._v("肖师傅")])]),_vm._v(" "),_c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-shijian1"})]),_vm._v(" "),_c('p',[_vm._v("2017年7月23日 12：20")])]),_vm._v(" "),_c('div',{staticClass:"li start"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("衡阳高铁站")])]),_vm._v(" "),_c('div',{staticClass:"li end"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("南岳衡山北门")])]),_vm._v(" "),_c('div',{staticClass:"price"},[_vm._v("30 "),_c('span',[_vm._v("元")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"put"},[_c('input',{attrs:{"type":"text","placeholder":"请输入司机编号"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"list"},[_c('div',{staticClass:"title"},[_c('h5',[_vm._v("肖师傅")])]),_vm._v(" "),_c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-shijian1"})]),_vm._v(" "),_c('p',[_vm._v("2017年7月23日 12：20")])]),_vm._v(" "),_c('div',{staticClass:"li start"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("衡阳高铁站")])]),_vm._v(" "),_c('div',{staticClass:"li end"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("南岳衡山北门")])]),_vm._v(" "),_c('div',{staticClass:"price"},[_vm._v("30 "),_c('span',[_vm._v("元")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"put"},[_c('input',{attrs:{"type":"text","placeholder":"请输入司机编号"}})])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
 /***/ "7KaK":
 /***/ (function(module, exports) {
 
@@ -390,9 +379,9 @@ var Component = normalizeComponent(
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_13_0_5_vue_loader_lib_selector_type_script_index_0_home_vue__ = __webpack_require__("upBy");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_5_vue_loader_lib_template_compiler_index_id_data_v_3f46a72e_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_13_0_5_vue_loader_lib_selector_type_template_index_0_home_vue__ = __webpack_require__("70E/");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_5_vue_loader_lib_template_compiler_index_id_data_v_3f46a72e_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_13_0_5_vue_loader_lib_selector_type_template_index_0_home_vue__ = __webpack_require__("Xw8F");
 function injectStyle (ssrContext) {
-  __webpack_require__("Yfjg")
+  __webpack_require__("cDvf")
 }
 var normalizeComponent = __webpack_require__("25r8")
 /* script */
@@ -402,12 +391,12 @@ var normalizeComponent = __webpack_require__("25r8")
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-3f46a72e"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_13_0_5_vue_loader_lib_selector_type_script_index_0_home_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_5_vue_loader_lib_template_compiler_index_id_data_v_3f46a72e_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_13_0_5_vue_loader_lib_selector_type_template_index_0_home_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_5_vue_loader_lib_template_compiler_index_id_data_v_3f46a72e_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_13_0_5_vue_loader_lib_selector_type_template_index_0_home_vue__["a" /* default */],
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
@@ -1166,17 +1155,6 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ "R/qu":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home"},[_c('div',{staticClass:"user_info"},[_c('div',{staticClass:"user"},[_c('a',{attrs:{"href":"javascript: void(0);"},on:{"click":_vm.share}},[_c('i',{staticClass:"iconfont icon-fenxiang"})]),_vm._v(" "),_vm._m(0)]),_vm._v(" "),_c('div',{staticClass:"info"},[_vm._m(1),_vm._v(" "),_vm._m(2),_vm._v(" "),_c('div',{on:{"click":_vm.to_wallet}},[_vm._m(3),_vm._v(" "),_c('p',[_vm._v("我的钱包")])])])]),_vm._v(" "),(_vm.state == 1)?_c('div',[_c('h6',[_vm._v("待接驾")]),_vm._v(" "),_c('ul',{staticClass:"order order_end"},[_c('li',[_vm._m(4),_vm._v(" "),_vm._m(5),_vm._v(" "),_vm._m(6),_vm._v(" "),_vm._m(7),_vm._v(" "),_vm._m(8),_vm._v(" "),_vm._m(9),_vm._v(" "),_vm._m(10),_vm._v(" "),_vm._m(11),_vm._v(" "),_c('div',{staticClass:"line"}),_vm._v(" "),_c('button',{on:{"click":_vm.confirm}},[_vm._v("确认接驾")])])])]):_c('div',[_c('h6',[_vm._v("确认支付")]),_vm._v(" "),_c('ul',{staticClass:"order order_end"},[_c('li',[_vm._m(12),_vm._v(" "),_vm._m(13),_vm._v(" "),_vm._m(14),_vm._v(" "),_vm._m(15),_vm._v(" "),_vm._m(16),_vm._v(" "),_vm._m(17),_vm._v(" "),_vm._m(18),_vm._v(" "),_vm._m(19),_vm._v(" "),_c('div',{staticClass:"line"}),_vm._v(" "),_c('button',{on:{"click":_vm.confirm}},[_vm._v("确认支付")])])])]),_vm._v(" "),_c('h6',[_vm._v("已完成订单")]),_vm._v(" "),_c('ul',{staticClass:"order order_end",on:{"click":_vm.detail}},[_vm._m(20),_vm._v(" "),_vm._m(21)])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('img',{attrs:{"src":__webpack_require__("BuHQ"),"alt":""}}),_vm._v(" "),_c('div',{staticClass:"name"},[_vm._v("刘师傅")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('p',[_c('span',[_vm._v("20")]),_vm._v("单")]),_vm._v(" "),_c('p',[_vm._v("今日接单")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('p',[_c('span',[_vm._v("200")]),_vm._v("元")]),_vm._v(" "),_c('p',[_vm._v("今日收入")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',[_c('span',[_c('i',{staticClass:"iconfont icon-qianbao"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"title"},[_c('h5',[_vm._v("肖师傅")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-shijian1"})]),_vm._v(" "),_c('p',[_vm._v("2017年7月23日 12：20")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li start"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("衡阳高铁站")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li end"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("南岳衡山北门")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-users"})]),_vm._v(" "),_c('p',[_vm._v("3人")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-id"})]),_vm._v(" "),_c('p',[_vm._v("30495830467345760")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-dianhua"})]),_vm._v(" "),_c('p',[_vm._v("183-9090-7878")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"price"},[_vm._v("30 "),_c('span',[_vm._v("元")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"title"},[_c('h5',[_vm._v("肖师傅")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-shijian1"})]),_vm._v(" "),_c('p',[_vm._v("2017年7月23日 12：20")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li start"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("衡阳高铁站")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li end"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("南岳衡山北门")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-users"})]),_vm._v(" "),_c('p',[_vm._v("3人")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-id"})]),_vm._v(" "),_c('p',[_vm._v("30495830467345760")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-dianhua"})]),_vm._v(" "),_c('p',[_vm._v("183-9090-7878")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"price"},[_vm._v("30 "),_c('span',[_vm._v("元")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('div',{staticClass:"title"},[_c('h5',[_vm._v("肖师傅")]),_vm._v(" "),_c('p',[_vm._v("已完成 "),_c('i',{staticClass:"iconfont icon-arrow-right"})])]),_vm._v(" "),_c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-shijian1"})]),_vm._v(" "),_c('p',[_vm._v("2017年7月23日 12：20")])]),_vm._v(" "),_c('div',{staticClass:"li start"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("衡阳高铁站")])]),_vm._v(" "),_c('div',{staticClass:"li end"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("南岳衡山北门")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('div',{staticClass:"title"},[_c('h5',[_vm._v("肖师傅")]),_vm._v(" "),_c('p',[_vm._v("已完成 "),_c('i',{staticClass:"iconfont icon-arrow-right"})])]),_vm._v(" "),_c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-shijian1"})]),_vm._v(" "),_c('p',[_vm._v("2017年7月23日 12：20")])]),_vm._v(" "),_c('div',{staticClass:"li start"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("衡阳高铁站")])]),_vm._v(" "),_c('div',{staticClass:"li end"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("南岳衡山北门")])])])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
 /***/ "RvSG":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1244,9 +1222,9 @@ var Component = normalizeComponent(
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_13_0_5_vue_loader_lib_selector_type_script_index_0_home_vue__ = __webpack_require__("nxG6");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_5_vue_loader_lib_template_compiler_index_id_data_v_27e182e3_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_13_0_5_vue_loader_lib_selector_type_template_index_0_home_vue__ = __webpack_require__("R/qu");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_5_vue_loader_lib_template_compiler_index_id_data_v_27e182e3_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_13_0_5_vue_loader_lib_selector_type_template_index_0_home_vue__ = __webpack_require__("lxLt");
 function injectStyle (ssrContext) {
-  __webpack_require__("XHjp")
+  __webpack_require__("uH9E")
 }
 var normalizeComponent = __webpack_require__("25r8")
 /* script */
@@ -1256,12 +1234,12 @@ var normalizeComponent = __webpack_require__("25r8")
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-27e182e3"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_13_0_5_vue_loader_lib_selector_type_script_index_0_home_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_5_vue_loader_lib_template_compiler_index_id_data_v_27e182e3_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_13_0_5_vue_loader_lib_selector_type_template_index_0_home_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_5_vue_loader_lib_template_compiler_index_id_data_v_27e182e3_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_13_0_5_vue_loader_lib_selector_type_template_index_0_home_vue__["a" /* default */],
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
@@ -1427,13 +1405,6 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ "XHjp":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "XTAt":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1464,6 +1435,17 @@ var Component = normalizeComponent(
 
 /* harmony default export */ __webpack_exports__["a"] = (Component.exports);
 
+
+/***/ }),
+
+/***/ "Xw8F":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home"},[_c('h6',[_vm._v("未派单订单")]),_vm._v(" "),_c('ul',{staticClass:"order order_end"},[_c('li',[_vm._m(0),_vm._v(" "),_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.is_open),expression:"is_open"}],staticClass:"btn"},[_c('button',{on:{"click":_vm.copy}},[_vm._v("复制订单信息")]),_vm._v(" "),_c('button',{on:{"click":_vm.sendSingle}},[_vm._v("派单")])]),_vm._v(" "),_c('div',{directives:[{name:"show",rawName:"v-show",value:(!_vm.is_open),expression:"!is_open"}],staticClass:"input"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"confirm",on:{"click":_vm.confirm}},[_vm._v("确认派单")])])]),_vm._v(" "),_c('li',[_vm._m(2),_vm._v(" "),_c('div',{directives:[{name:"show",rawName:"v-show",value:(false),expression:"false"}],staticClass:"input"},[_vm._m(3),_vm._v(" "),_c('div',{staticClass:"confirm"},[_vm._v("确认派单")])])])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"list"},[_c('div',{staticClass:"title"},[_c('h5',[_vm._v("肖师傅")])]),_vm._v(" "),_c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-shijian1"})]),_vm._v(" "),_c('p',[_vm._v("2017年7月23日 12：20")])]),_vm._v(" "),_c('div',{staticClass:"li start"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("衡阳高铁站")])]),_vm._v(" "),_c('div',{staticClass:"li end"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("南岳衡山北门")])]),_vm._v(" "),_c('div',{staticClass:"price"},[_vm._v("30 "),_c('span',[_vm._v("元")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"put"},[_c('input',{attrs:{"type":"text","placeholder":"请输入司机编号"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"list"},[_c('div',{staticClass:"title"},[_c('h5',[_vm._v("肖师傅")])]),_vm._v(" "),_c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-shijian1"})]),_vm._v(" "),_c('p',[_vm._v("2017年7月23日 12：20")])]),_vm._v(" "),_c('div',{staticClass:"li start"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("衡阳高铁站")])]),_vm._v(" "),_c('div',{staticClass:"li end"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("南岳衡山北门")])]),_vm._v(" "),_c('div',{staticClass:"price"},[_vm._v("30 "),_c('span',[_vm._v("元")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"put"},[_c('input',{attrs:{"type":"text","placeholder":"请输入司机编号"}})])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 
@@ -1557,13 +1539,6 @@ __WEBPACK_IMPORTED_MODULE_0_vue__["default"].use(__WEBPACK_IMPORTED_MODULE_1_vue
 
 /***/ }),
 
-/***/ "Yfjg":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "a0FO":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1581,6 +1556,13 @@ __WEBPACK_IMPORTED_MODULE_0_vue__["default"].use(__WEBPACK_IMPORTED_MODULE_1_vue
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__home_vue__ = __webpack_require__("9+9Y");
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__home_vue__["a"]; });
 
+
+/***/ }),
+
+/***/ "cDvf":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -1900,6 +1882,17 @@ module.exports = __webpack_require__.p + "static/img/banner.98c51dc.jpg";
 //
 
 
+
+/***/ }),
+
+/***/ "lxLt":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home"},[_c('div',{staticClass:"user_info"},[_c('div',{staticClass:"user"},[_c('a',{attrs:{"href":"javascript: void(0);"},on:{"click":_vm.share}},[_c('i',{staticClass:"iconfont icon-fenxiang"})]),_vm._v(" "),_vm._m(0)]),_vm._v(" "),_c('div',{staticClass:"info"},[_vm._m(1),_vm._v(" "),_vm._m(2),_vm._v(" "),_c('div',{on:{"click":_vm.to_wallet}},[_vm._m(3),_vm._v(" "),_c('p',[_vm._v("我的钱包")])])])]),_vm._v(" "),(_vm.state == 1)?_c('div',[_c('h6',[_vm._v("待接驾")]),_vm._v(" "),_c('ul',{staticClass:"order order_end"},[_c('li',[_vm._m(4),_vm._v(" "),_vm._m(5),_vm._v(" "),_vm._m(6),_vm._v(" "),_vm._m(7),_vm._v(" "),_vm._m(8),_vm._v(" "),_vm._m(9),_vm._v(" "),_vm._m(10),_vm._v(" "),_vm._m(11),_vm._v(" "),_c('div',{staticClass:"line"}),_vm._v(" "),_c('button',{on:{"click":_vm.confirm}},[_vm._v("确认接驾")])])])]):_c('div',[_c('h6',[_vm._v("确认支付")]),_vm._v(" "),_c('ul',{staticClass:"order order_end"},[_c('li',[_vm._m(12),_vm._v(" "),_vm._m(13),_vm._v(" "),_vm._m(14),_vm._v(" "),_vm._m(15),_vm._v(" "),_vm._m(16),_vm._v(" "),_vm._m(17),_vm._v(" "),_vm._m(18),_vm._v(" "),_vm._m(19),_vm._v(" "),_c('div',{staticClass:"line"}),_vm._v(" "),_c('button',{on:{"click":_vm.confirm}},[_vm._v("确认支付")])])])]),_vm._v(" "),_c('h6',[_vm._v("已完成订单")]),_vm._v(" "),_c('ul',{staticClass:"order order_end",on:{"click":_vm.detail}},[_vm._m(20),_vm._v(" "),_vm._m(21)])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('img',{attrs:{"src":__webpack_require__("BuHQ"),"alt":""}}),_vm._v(" "),_c('div',{staticClass:"name"},[_vm._v("刘师傅")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('p',[_c('span',[_vm._v("20")]),_vm._v("单")]),_vm._v(" "),_c('p',[_vm._v("今日接单")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('p',[_c('span',[_vm._v("200")]),_vm._v("元")]),_vm._v(" "),_c('p',[_vm._v("今日收入")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('p',[_c('span',[_c('i',{staticClass:"iconfont icon-qianbao"})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"title"},[_c('h5',[_vm._v("肖师傅")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-shijian1"})]),_vm._v(" "),_c('p',[_vm._v("2017年7月23日 12：20")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li start"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("衡阳高铁站")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li end"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("南岳衡山北门")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-users"})]),_vm._v(" "),_c('p',[_vm._v("3人")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-id"})]),_vm._v(" "),_c('p',[_vm._v("30495830467345760")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-dianhua"})]),_vm._v(" "),_c('p',[_vm._v("183-9090-7878")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"price"},[_vm._v("30 "),_c('span',[_vm._v("元")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"title"},[_c('h5',[_vm._v("肖师傅")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-shijian1"})]),_vm._v(" "),_c('p',[_vm._v("2017年7月23日 12：20")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li start"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("衡阳高铁站")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li end"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("南岳衡山北门")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-users"})]),_vm._v(" "),_c('p',[_vm._v("3人")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-id"})]),_vm._v(" "),_c('p',[_vm._v("30495830467345760")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-dianhua"})]),_vm._v(" "),_c('p',[_vm._v("183-9090-7878")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"price"},[_vm._v("30 "),_c('span',[_vm._v("元")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('div',{staticClass:"title"},[_c('h5',[_vm._v("肖师傅")]),_vm._v(" "),_c('p',[_vm._v("已完成 "),_c('i',{staticClass:"iconfont icon-arrow-right"})])]),_vm._v(" "),_c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-shijian1"})]),_vm._v(" "),_c('p',[_vm._v("2017年7月23日 12：20")])]),_vm._v(" "),_c('div',{staticClass:"li start"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("衡阳高铁站")])]),_vm._v(" "),_c('div',{staticClass:"li end"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("南岳衡山北门")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_c('div',{staticClass:"title"},[_c('h5',[_vm._v("肖师傅")]),_vm._v(" "),_c('p',[_vm._v("已完成 "),_c('i',{staticClass:"iconfont icon-arrow-right"})])]),_vm._v(" "),_c('div',{staticClass:"li time"},[_c('span',[_c('i',{staticClass:"iconfont icon-shijian1"})]),_vm._v(" "),_c('p',[_vm._v("2017年7月23日 12：20")])]),_vm._v(" "),_c('div',{staticClass:"li start"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("衡阳高铁站")])]),_vm._v(" "),_c('div',{staticClass:"li end"},[_c('span',[_c('i',{staticClass:"iconfont icon-dot"})]),_vm._v(" "),_c('p',[_vm._v("南岳衡山北门")])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 
@@ -2255,6 +2248,13 @@ var Component = normalizeComponent(
 
 /***/ }),
 
+/***/ "uH9E":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "upBy":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2551,4 +2551,4 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.28959cba9c54a8ce30f2.js.map
+//# sourceMappingURL=app.9ca3d26d397f3db57dad.js.map
